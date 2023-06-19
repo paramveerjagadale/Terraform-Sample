@@ -3,6 +3,6 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "Hello World"
+    Name = "Welcome to our Terraform Course"
   }
 }
